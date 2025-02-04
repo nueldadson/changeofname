@@ -1,0 +1,183 @@
+/*style loaderfemme*/
+        /*new*/
+                
+        #loaderpouch {
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 100vw;
+        max-height: 100vh;
+        width: 100vw;
+        height: 100vh;
+        z-index: 700000000;
+        background-color: white;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        
+        #loaderpouchfemme {
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 100vw;
+        max-height: 100vh;
+        width: 100vw;
+        height: 100vh;
+        z-index: 700000000;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.75s, visibility 0.75s;
+        }
+        
+        
+        .loaderpouch-hidden {
+          opacity: 0;
+          visibility: hidden;
+      }
+
+
+        .spinner-set {
+          position: absolute;
+          margin-left: -50px;
+          text-align: center;
+        }
+        
+        .spinner-set div {
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          background-color: white;
+          border-radius: 50%;
+          animation-timing-function: cubic-bezier(0, 1, 1, 0);
+        }
+        
+        /* first div: show the circle */
+        .spinner-set div:nth-child(1) {
+          left: -10px;
+          animation: showCircle .5s infinite;
+          background-color:  #e25853;
+        }
+        
+        /* second, third, fourth div: move the circle */
+        .spinner-set div:nth-child(2) {
+          left: 0;
+          animation: moveCircle .5s infinite;
+          background-color:  silver;
+        }
+        
+        .spinner-set div:nth-child(3) {
+          left: 24px;
+          animation: moveCircle .5s infinite;
+          background-color:  silver;
+        }
+        
+        .spinner-set div:nth-child(4) {
+          left: 48px;
+          animation: moveCircle .5s infinite;
+          background-color:  silver;
+        }
+        
+        /* fifth div: hide the circle */
+        .spinner-set div:nth-child(5) {
+          left: 72px;
+          animation: hideCircle .5s infinite;
+          background-color:  silver;
+        }
+        
+        @keyframes showCircle {
+          0% {
+            transform: scale(0);
+          }
+        
+          100% {
+            transform: scale(1);
+          }
+        }
+        
+        @keyframes moveCircle {
+          0% {
+            transform: translateX(0);
+          }
+        
+          100% {
+            transform: translateX(24px);
+          }
+        }
+        
+        @keyframes hideCircle {
+          0% {
+            transform: scale(1);
+          }
+        
+          100% {
+            transform: scale(0);
+          }
+        }
+
+        @media screen and (min-width: 550px) {          
+          .spinner-set div {
+            width: 19px;
+            height: 19px;
+          }
+          
+          .spinner-set div:nth-child(3) {
+            left: 35px;
+          }
+          
+          .spinner-set div:nth-child(4) {
+            left: 70px;
+          }
+          
+          /* fifth div: hide the circle */
+          .spinner-set div:nth-child(5) {
+            left: 105px;
+          }
+          
+          @keyframes moveCircle {
+            100% {
+              transform: translateX(35px);
+            }
+          }
+
+
+        }
+
+        @media screen and (min-width: 1000px) {
+      
+      .spinner-set {
+        margin: 0px 0px;
+        width: 120px;
+      }
+      
+      .spinner-set div {
+        width: 24px;
+        height: 24px;
+      }
+      
+      .spinner-set div:nth-child(3) {
+        left: 50px;
+      }
+      
+      .spinner-set div:nth-child(4) {
+        left: 100px;
+      }
+      
+      /* fifth div: hide the circle */
+      .spinner-set div:nth-child(5) {
+        left: 150px;
+      }
+      
+      @keyframes moveCircle {
+        100% {
+          transform: translateX(50px);
+        }
+      }
+      
+
+     }
+
+        

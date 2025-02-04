@@ -1,0 +1,884 @@
+
+    @font-face {
+      src: url('ZonaPro-Regular.ttf') format('truetype');
+      font-family: "zonapro-regular";
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-SemiBold.ttf') format('truetype');
+      font-family: "zonapro-semibold";
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-Bold.ttf') format('truetype');
+      font-family: "zonapro-bold";
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-ExtraBold.ttf') format('truetype');
+      font-family: "zonapro-extrabold";
+      font-weight: 800;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    html { font-size: 16px;
+    scroll-behavior: smooth;
+    }
+
+    :root {
+        --13.5: 0.844rem;
+        --14: 0.875rem;
+        --15: 0.9375rem;
+        --16: 1rem;
+        --17: 1.0625rem;
+        --18: 1.125rem;
+        --20: 1.25rem;
+        --21: 1.3125rem;
+        --22: 1.375rem;
+        --23: 1.4375rem;
+        --24: 1.5rem;
+        --25: 1.5625rem;
+        --26: 1.625rem;
+        --27: 1.6875rem;
+        --28: 1.75rem;
+        --30: 1.875rem;
+        --32: 2rem;
+        --33: 2.0625rem;
+        --34: 2.125rem;
+        --35: 2.1875rem;
+        --36: 2.25rem;
+        --38: 2.375rem;
+        --40: 2.5rem;
+        --42: 2.625rem;
+        --50: 3.125rem;
+        --60: 3.75rem;
+        --70: 4.375rem;
+        --90: 5.625rem;
+    }
+
+
+    .paginationwrapper {
+      position: relative;
+      max-width: 100%;
+    }
+
+    ul.breadcrumb {
+      padding: 2.4rem 16px 0.9rem 16px;
+      list-style: none;
+      background-image: linear-gradient(to right top, #b9fdda, #b9fdda, #b9fdda, #d7fdd9, #edfde0, #f4fee2, #fafee4, #ffffe7, #ffffdf, #ffffd7, #ffffce, #ffffc6);
+    }
+
+    ul.breadcrumb li {
+      display: inline;
+      font-size: var(--18);
+      font-family: zonapro-bold;
+    }
+    ul.breadcrumb li+li:before {
+      padding: 8px;
+      color: #000;
+      content: "/\00a0";
+    }
+
+    ul.breadcrumb li a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    ul.breadcrumb li a:hover {
+      text-decoration: underline;
+      color: #e25853;
+    }
+
+    .currentpage {
+    color: #e25853;
+    }
+
+    .blogbox {
+      position: relative;
+      max-width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+
+    .blogitem {
+      position: relative;
+      width: 90%;
+      margin: 0% 5% 0px 5%;
+    }
+
+    .blogimage {
+      position: relative;
+      width: 100%;
+      display: block;
+      margin-bottom : 5%;
+    }
+
+
+    .blogtextbox {
+      position: relative;
+      font-family: zonapro-regular;
+      margin: 0% 0% 10% 0%;
+    }
+
+    .blogtitle {
+      color: #000;
+      font-family: zonapro-semibold;
+      padding-top: 3%;
+      font-size: var(--20);
+    }
+
+    .blogauthor, .blogdate {
+      color: #000;
+      font-size: 16px;
+    }
+
+    .blogtext {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+    }
+
+    .shiftp {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+      margin-left: 4%;
+    }
+
+
+   .bloglink a {
+      color: #e25853;
+      padding-bottom: 7%;
+    }
+
+    .blogtitle a, .blogdate {
+     color: #000;
+    }
+
+    .blogtitle a:hover {
+     color: #e25853;
+    }
+
+    .moveuppage a {
+     color: #e25853;
+     font-size: var(--13.5);
+     font-family: zonapro-bold;
+    }
+
+    #section-blog-share {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 80px;
+      padding: 10px 0px 10px 0px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #d7fdd9;
+    }
+
+    #section-blog-share-title {
+      position: relative;
+      font-size: 18px;
+      font-family: zonapro-bold,sans-serif;
+      text-align: center;
+      margin: 10px 0px 10px 0px;
+    }
+
+      #social-share-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .share-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .share-icon:hover {
+      transform: translateY(-5px);
+      transition: 0.5s ease-out;
+    }
+
+    #twitter_share {
+        color: black;
+    }
+
+    #facebook_share {
+        color: #1877F2;
+        margin-left: 30px;
+    }
+
+    #linkedin_share {
+        color: #0077b5;
+        margin-left: 30px;
+    }
+
+
+    @media screen and (min-width: 500px) {
+      ul.breadcrumb {
+        padding: 2.3rem 16px 0.9rem 16px;
+        list-style: none;
+        background-image: linear-gradient(to right top, #b9fdda, #b9fdda, #b9fdda, #d7fdd9, #edfde0, #f4fee2, #fafee4, #ffffe7, #ffffdf, #ffffd7, #ffffce, #ffffc6);
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: var(--18);
+        font-family: zonapro-bold;
+      }
+
+    .blogbox {
+      position: relative;
+      max-width: 100%;
+      padding-top: 50px;
+      padding-bottom: 40px;
+    }
+
+
+    .blogitem {
+      position: relative;
+      width: 95%;
+      margin: 0% 2.5% 0px 2.5%;
+    }
+
+    .blogimage {
+      position: relative;
+      width: 85%;
+      display: block;
+      margin-left: 7.5%;
+      margin-bottom : 5%;
+      border-radius: 16px;
+    }
+
+
+    .blogtextbox {
+      position: relative;
+      font-family: zonapro-regular;
+      margin: 0% 0% 10% 0%;
+    }
+
+    .blogtitle {
+      color: #000;
+      font-family: zonapro-semibold;
+      padding-top: 3%;
+      font-size: var(--20);
+    }
+
+    .blogauthor, .blogdate {
+      color: #000;
+      font-size: 16px;
+    }
+
+    .blogtext {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+    }
+
+    .shiftp {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+      margin-left: 4%;
+    }
+
+
+   .bloglink a {
+      color: #e25853;
+      padding-bottom: 7%;
+    }
+
+    .blogtitle a, .blogdate {
+     color: #000;
+    }
+
+    .blogtitle a:hover {
+     color: #e25853;
+    }
+
+    .moveuppage a {
+     color: #e25853;
+     font-size: var(--13.5);
+     font-family: zonapro-bold;
+    }
+
+    #section-blog-share {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 80px;
+      padding: 10px 0px 10px 0px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #d7fdd9;
+    }
+
+    #section-blog-share-title {
+      position: relative;
+      font-size: 18px;
+      font-family: zonapro-bold,sans-serif;
+      text-align: center;
+      margin: 15px 0px 10px 0px;
+    }
+
+      #social-share-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 14px;
+    }
+
+    .share-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    }
+
+    @media screen and (min-width: 550px) {
+      ul.breadcrumb {
+        padding: 2.3rem 16px 0.9rem 16px;
+        list-style: none;
+        background-image: linear-gradient(to right top, #b9fdda, #b9fdda, #b9fdda, #d7fdd9, #edfde0, #f4fee2, #fafee4, #ffffe7, #ffffdf, #ffffd7, #ffffce, #ffffc6);
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: var(--22);
+        font-family: zonapro-bold;
+      }
+
+
+    .blogbox {
+      position: relative;
+      max-width: 100%;
+      padding-top: 50px;
+      padding-bottom: 80px;
+    }
+
+
+    .blogitem {
+      position: relative;
+      width: 95%;
+      margin: 0% 2.5% 0px 2.5%;
+    }
+
+    .blogimage {
+      position: relative;
+      width: 95%;
+      display: block;
+      margin-left: 2.5%;
+      margin-bottom : 5%;
+      height: 310px;
+      border-radius: 16px;
+    }
+
+
+    .blogtextbox {
+      position: relative;
+      font-family: zonapro-regular;
+      margin: 0% 0% 10% 0%;
+    }
+
+    .blogtitle {
+      color: #000;
+      font-family: zonapro-semibold;
+      padding-top: 3%;
+      font-size: var(--20);
+    }
+
+    .blogauthor, .blogdate {
+      color: #000;
+      font-size: 16px;
+    }
+
+    .blogtext {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+    }
+
+    .shiftp {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+      margin-left: 4%;
+    }
+
+
+   .bloglink a {
+      color: #e25853;
+      padding-bottom: 7%;
+    }
+
+    .blogtitle a, .blogdate {
+     color: #000;
+    }
+
+    .blogtitle a:hover {
+     color: #e25853;
+    }
+
+    .moveuppage a {
+     color: #e25853;
+     font-size: var(--13.5);
+     font-family: zonapro-bold;
+    }
+
+    #section-blog-share {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 80px;
+      padding: 10px 0px 10px 0px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #d7fdd9;
+    }
+
+    #section-blog-share-title {
+      position: relative;
+      font-size: 22px;
+      font-family: zonapro-bold,sans-serif;
+      text-align: center;
+      margin: 20px 0px 15px 0px;
+    }
+
+      #social-share-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 14px;
+    }
+
+    .share-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    }
+
+    @media screen and (min-width: 650px) {
+      .blogimage {
+        position: relative;
+        width: 95%;
+        display: block;
+        margin-left: 2.5%;
+        margin-bottom : 5%;
+        height: 380px;
+        border-radius: 16px;
+      }
+    }
+
+    @media screen and (min-width: 740px) {
+      .blogimage {
+        position: relative;
+        width: 90%;
+        display: block;
+        margin-left: 5%;
+        margin-bottom : 5%;
+        height: 380px;
+        border-radius: 16px;
+      }
+    }
+
+    @media screen and (min-width: 815px) {
+      .blogimage {
+        position: relative;
+        width: 85%;
+        display: block;
+        margin-left: 7.5%;
+        margin-bottom : 5%;
+        height: 390px;
+        border-radius: 16px;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      ul.breadcrumb {
+        padding: 3.6rem 16px 1.8rem 16px;
+        list-style: none;
+        background-image: linear-gradient(to right top, #b9fdda, #b9fdda, #b9fdda, #d7fdd9, #edfde0, #f4fee2, #fafee4, #ffffe7, #ffffdf, #ffffd7, #ffffce, #ffffc6);
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: var(--22);
+        font-family: zonapro-bold;
+      }
+
+
+    .blogbox {
+      position: relative;
+      max-width: 100%;
+      padding-top: 50px;
+      padding-bottom: 100px;
+    }
+
+
+    .blogitem {
+      position: relative;
+      width: 80%;
+      margin: 0% 10% 0px 10%;
+    }
+
+    .blogimage {
+      position: relative;
+      width: 85%;
+      display: block;
+      margin-left: 7.5%;
+      margin-bottom : 5%;
+      height: 410px;
+      border-radius: 16px;
+    }
+
+
+    .blogtextbox {
+      position: relative;
+      font-family: zonapro-regular;
+      margin: 0% 0% 10% 0%;
+    }
+
+    .blogtitle {
+      color: #000;
+      font-family: zonapro-semibold;
+      padding-top: 3%;
+      font-size: var(--20);
+    }
+
+    .blogauthor, .blogdate {
+      color: #000;
+      font-size: 16px;
+    }
+
+    .blogtext {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+    }
+
+    .shiftp {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+      margin-left: 4%;
+    }
+
+
+   .bloglink a {
+      color: #e25853;
+      padding-bottom: 7%;
+    }
+
+    .blogtitle a, .blogdate {
+     color: #000;
+    }
+
+    .blogtitle a:hover {
+     color: #e25853;
+    }
+
+    .moveuppage a {
+     color: #e25853;
+     font-size: var(--13.5);
+     font-family: zonapro-bold;
+    }
+
+    #section-blog-share {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 80px;
+      padding: 15px 0px 15px 0px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #d7fdd9;
+    }
+
+    #section-blog-share-title {
+      position: relative;
+      font-size: 22px;
+      font-family: zonapro-bold,sans-serif;
+      text-align: center;
+      margin: 20px 0px 20px 0px;
+    }
+
+      #social-share-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .share-icon {
+        height: 25px;
+        width: 25px;
+    }
+    }
+
+    @media screen and (min-width: 1000px) {
+      ul.breadcrumb {
+        padding: 3.6rem 16px 1.8rem 16px;
+        list-style: none;
+        background-image: linear-gradient(to right top, #b9fdda, #b9fdda, #b9fdda, #d7fdd9, #edfde0, #f4fee2, #fafee4, #ffffe7, #ffffdf, #ffffd7, #ffffce, #ffffc6);
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: var(--22);
+        font-family: zonapro-bold;
+      }
+
+
+    .blogbox {
+      position: relative;
+      max-width: 100%;
+      padding-top: 50px;
+      padding-bottom: 100px;
+    }
+
+
+    .blogitem {
+      position: relative;
+      width: 70%;
+      margin: 0% 15% 0px 15%;
+    }
+
+    .blogimage {
+      position: relative;
+      width: 85%;
+      display: block;
+      margin-left: 7.5%;
+      margin-bottom : 5%;
+      height: 410px;
+      border-radius: 16px;
+    }
+
+
+    .blogtextbox {
+      position: relative;
+      font-family: zonapro-regular;
+      margin: 0% 0% 10% 0%;
+    }
+
+    .blogtitle {
+      color: #000;
+      font-family: zonapro-semibold;
+      padding-top: 3%;
+      font-size: var(--20);
+    }
+
+    .blogauthor, .blogdate {
+      color: #000;
+      font-size: 16px;
+    }
+
+    .blogtext {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+    }
+
+    .shiftp {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+      margin-left: 4%;
+    }
+
+
+   .bloglink a {
+      color: #e25853;
+      padding-bottom: 7%;
+    }
+
+    .blogtitle a, .blogdate {
+     color: #000;
+    }
+
+    .blogtitle a:hover {
+     color: #e25853;
+    }
+
+    .moveuppage a {
+     color: #e25853;
+     font-size: var(--13.5);
+     font-family: zonapro-bold;
+    }
+
+    #section-blog-share {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 80px;
+      padding: 15px 0px 15px 0px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #d7fdd9;
+    }
+
+    #section-blog-share-title {
+      position: relative;
+      font-size: 22px;
+      font-family: zonapro-bold,sans-serif;
+      text-align: center;
+      margin: 20px 0px 20px 0px;
+    }
+
+      #social-share-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .share-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+      ul.breadcrumb {
+        padding: 4.6rem 16px 2.3rem 16px;
+        list-style: none;
+        background-image: linear-gradient(to right top, #b9fdda, #b9fdda, #b9fdda, #d7fdd9, #edfde0, #f4fee2, #fafee4, #ffffe7, #ffffdf, #ffffd7, #ffffce, #ffffc6);
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: var(--22);
+        font-family: zonapro-bold;
+      }
+
+
+    .blogbox {
+      position: relative;
+      max-width: 100%;
+      padding-top: 50px;
+      padding-bottom: 100px;
+    }
+
+
+    .blogitem {
+      position: relative;
+      width: 50%;
+      margin: 0% 25% 0px 25%;
+    }
+
+    .blogimage {
+      position: relative;
+      width: 85%;
+      display: block;
+      margin-left: 7.5%;
+      margin-bottom : 5%;
+      height: 410px;
+      border-radius: 16px;
+
+    }
+
+
+    .blogtextbox {
+      position: relative;
+      font-family: zonapro-regular;
+      margin: 0% 0% 10% 0%;
+    }
+
+    .blogtitle {
+      color: #000;
+      font-family: zonapro-semibold;
+      padding-top: 3%;
+      font-size: var(--20);
+    }
+
+    .blogauthor, .blogdate {
+      color: #000;
+      font-size: 16px;
+    }
+
+    .blogtext {
+      color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+    }
+
+    .shiftp {
+        color: #000002;
+      font-family: zonapro-regular;
+      font-size: 16px;
+        margin-left: 4%;
+    }
+
+
+   .bloglink a {
+      color: #e25853;
+      padding-bottom: 7%;
+    }
+
+    .blogtitle a, .blogdate {
+     color: #000;
+    }
+
+    .blogtitle a:hover {
+     color: #e25853;
+    }
+
+    .moveuppage a {
+     color: #e25853;
+     font-size: var(--13.5);
+     font-family: zonapro-bold;
+    }
+
+    #section-blog-share {
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 80px;
+      padding: 20px 0px 20px 0px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+      background-color: #d7fdd9;
+    }
+
+    #section-blog-share-title {
+      position: relative;
+      font-size: 24px;
+      font-family: zonapro-bold,sans-serif;
+      text-align: center;
+      margin: 20px 0px 20px 0px;
+    }
+
+      #social-share-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .share-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    }

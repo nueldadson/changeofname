@@ -1,0 +1,548 @@
+Uri: https://cdn.amplitude.com/libs/analytics-browser-2.9.3-min.js.gz
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\libs\analytics-browser-2.9.3-min.js.gz
+Content Type: application/javascript
+
+Uri: https://cdn.amplitude.com/libs/plugin-autocapture-browser-1.0.0-min.js.gz
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\libs\plugin-autocapture-browser-1.0.0-min.js.gz
+Content Type: application/javascript
+
+Uri: https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.6.8-min.js.gz
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\libs\plugin-session-replay-browser-1.6.8-min.js.gz
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\ajax\libs\font-awesome\4.7.0\fonts\fontawesome-webfont.woff
+Content Type: application/octet-stream
+
+Uri: https://www.changeofname.ng/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/about/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\about\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/captcha/image/064c22d8ee3d39bd753232805b8ef32e15aa2c4b/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\captcha\image\064c22d8ee3d39bd753232805b8ef32e15aa2c4b\index.htm
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/captcha/image/80ce3fef110a5e3ae6b71b56a7b78d37cc3ba660/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\captcha\image\80ce3fef110a5e3ae6b71b56a7b78d37cc3ba660\index.htm
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/captcha/image/90f5ed25e09bed53783a58e49063c9a1e95a30e0/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\captcha\image\90f5ed25e09bed53783a58e49063c9a1e95a30e0\index.htm
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/career/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\career\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/contact/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\contact\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/domestic-violence/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\domestic-violence\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/earn/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\earn\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/honey-moon-spots/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\honey-moon-spots\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/luxurious-skin-care/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\luxurious-skin-care\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/name-advert-form/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\name-advert-form\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/news-and-blog/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\news-and-blog\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/notice-advert-form/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\notice-advert-form\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/notices/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\notices\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/privacy/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/reprint-publication-form/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\reprint-publication-form\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/static/css/animate.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\animate.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-about.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-about.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-adform.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-adform.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-blogmain.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-blogmain.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-blogsingle.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-blogsingle.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-career.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-career.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-contact.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-contact.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-cookie.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-cookie.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-index.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-index.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-loader.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-loader.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-notice-adform.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-notice-adform.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-noticeindex.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-noticeindex.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-reprint.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-reprint.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style-small-prints.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style-small-prints.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/styleblogmainnewsscroll.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\styleblogmainnewsscroll.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/style_head_footer.css
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\style_head_footer.css
+Content Type: text/css
+
+Uri: https://www.changeofname.ng/static/css/ZonaPro-Bold.ttf
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\ZonaPro-Bold.ttf
+Content Type: font/ttf
+
+Uri: https://www.changeofname.ng/static/css/ZonaPro-ExtraBold.ttf
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\ZonaPro-ExtraBold.ttf
+Content Type: font/ttf
+
+Uri: https://www.changeofname.ng/static/css/ZonaPro-Regular.ttf
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\ZonaPro-Regular.ttf
+Content Type: font/ttf
+
+Uri: https://www.changeofname.ng/static/css/ZonaPro-SemiBold.ttf
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\css\ZonaPro-SemiBold.ttf
+Content Type: font/ttf
+
+Uri: https://www.changeofname.ng/static/images/arabica.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\arabica.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/azure.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\azure.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/barcelonaa.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\barcelonaa.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/biznew.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\biznew.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/Businessda.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\Businessda.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/cerave.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\cerave.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/champion.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\champion.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/change_of_name_ng-logo.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\change_of_name_ng-logo.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/clarity.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\clarity.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/con5.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\con5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/cookie.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\cookie.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/corevalue.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\corevalue.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/crosssriver.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\crosssriver.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/dailyPost.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\dailyPost.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/dailyTrust.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\dailyTrust.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ds3.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ds3.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ds4.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ds4.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ds5.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ds5.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ds6.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ds6.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ds7.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ds7.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ds8.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ds8.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/dubaii.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\dubaii.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/favicon.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\favicon.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/fern.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\fern.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/fill_form_online-con.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\fill_form_online-con.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/fill_form_online-conno.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\fill_form_online-conno.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/flytrap9.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\flytrap9.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/footer_img.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\footer_img.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/foot_bg_img.jpeg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\foot_bg_img.jpeg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/glow.jpeg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\glow.jpeg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/Guardian.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\Guardian.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/habits.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\habits.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/home_delivery-con.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\home_delivery-con.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/home_delivery-conno.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\home_delivery-conno.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/img3.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\img3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/independent.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\independent.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/kojic.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\kojic.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/lady.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\lady.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/lady.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\lady.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ladyhurts.jpeg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ladyhurts.jpeg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/ladyno.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ladyno.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/ladyy.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ladyy.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/ladyyno.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\ladyyno.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/leadership.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\leadership.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/londonn.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\londonn.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/loreal.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\loreal.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/make_payment-con.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\make_payment-con.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/make_payment-conno.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\make_payment-conno.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/mission.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\mission.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/more.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\more.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/nation.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\nation.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/newsdirect.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\newsdirect.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/newyorkk.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\newyorkk.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/olay.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\olay.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/oldpaperz.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\oldpaperz.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/oriflame.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\oriflame.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/papaya4.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\papaya4.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/pariss.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\pariss.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/party4.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\party4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/paystac.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\paystac.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/plan.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\plan.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/punch.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\punch.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/punchindemnityform.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\punchindemnityform.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/punch_indemnity_form_Sample.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\punch_indemnity_form_Sample.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/select_newspaper-con.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\select_newspaper-con.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/select_newspaper-conno.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\select_newspaper-conno.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/stand.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\stand.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/sun.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\sun.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/talk.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\talk.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/team.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\team.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/thisday.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\thisday.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/tribun.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\tribun.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/vacancy.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\vacancy.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/vanguard.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\vanguard.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/venicce.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\venicce.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/vision.png
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\vision.png
+Content Type: image/png
+
+Uri: https://www.changeofname.ng/static/images/words.jpg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\words.jpg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/images/you.jpeg
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\images\you.jpeg
+Content Type: image/jpeg
+
+Uri: https://www.changeofname.ng/static/js/animate.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\animate.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/fieldsclearer.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\fieldsclearer.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/gscriptform.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\gscriptform.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/gscriptstateform.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\gscriptstateform.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/head_footer.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\head_footer.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/index_body.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\index_body.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/loader-couple.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\loader-couple.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/loader-single.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\loader-single.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/static/js/noticeadform.js
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\static\js\noticeadform.js
+Content Type: application/javascript
+
+Uri: https://www.changeofname.ng/stay-a-lady/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\stay-a-lady\index.htm
+Content Type: text/html
+
+Uri: https://www.changeofname.ng/terms/
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\terms\index.htm
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-MYF3STXNE3
+File Name: C:\Downloaded Web Sites\www.changeofname.ng\gtag\js
+Content Type: application/javascript
+

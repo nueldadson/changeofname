@@ -1,0 +1,541 @@
+
+    @font-face {
+      src: url('ZonaPro-Regular.ttf') format('truetype');
+      font-family: "zonapro-regular";
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-SemiBold.ttf') format('truetype');
+      font-family: "zonapro-semibold";
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+   }
+
+    @font-face {
+      src: url('ZonaPro-Bold.ttf') format('truetype');
+      font-family: "zonapro-bold";
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-ExtraBold.ttf') format('truetype');
+      font-family: "zonapro-extrabold";
+      font-weight: 800;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    html { font-size: 16px;
+    }
+
+    :root {
+        --13.5: 0.844rem;
+        --14: 0.875rem;
+        --15: 0.9375rem;
+        --16: 1rem;
+        --17: 1.0625rem;
+        --18: 1.125rem;
+        --20: 1.25rem;
+        --21: 1.3125rem;
+        --22: 1.375rem;
+        --23: 1.4375rem;
+        --24: 1.5rem;
+        --25: 1.5625rem;
+        --26: 1.625rem;
+        --27: 1.6875rem;
+        --28: 1.75rem;
+        --30: 1.875rem;
+        --32: 2rem;
+        --33: 2.0625rem;
+        --34: 2.125rem;
+        --35: 2.1875rem;
+        --36: 2.25rem;
+        --38: 2.375rem;
+        --40: 2.5rem;
+        --42: 2.625rem;
+        --50: 3.125rem;
+        --60: 3.75rem;
+        --70: 4.375rem;
+        --90: 5.625rem;
+    }
+
+.formscontainer {
+max-width: 100%;
+position: relative;
+}
+
+.tablink {
+  position: relative;
+  background-color: #000;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: var(--13.5);
+  font-family: zonapro-bold;
+  width: 35%;
+  margin: 7%;
+  border-radius: 1rem;
+  border-radius: 16px;
+}
+
+.tablink:hover {
+  background-color: #000;
+  color: white;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.formbox {
+position: relative;
+width: 100%;
+padding-top: 5%;
+margin: 10px 0% 10% 0%;
+border-radius: 16px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+label {
+color: #000;
+margin-left: 5%;
+font-size: 16px;
+font-family: zonapro-regular;
+}
+
+.formtitle {
+  max-width: 100%;
+  padding-top: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 4%;
+  background-color: #ffffff;
+  position: relative;
+  font-family: zonapro-extrabold,sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  color: #000;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-size: var(--20);
+  text-align: center;
+  border-bottom: 5px solid #ffeead;
+}
+
+fieldset{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0%;
+  display: inline-block;
+  color: #000;
+  font-size: var(--16);
+  font-family: zonapro-regular;
+  border: none;
+}
+
+legend {
+  text-align: center;
+  letter-spacing:2px;
+  font-size: var(--18);
+  font-family: zonapro-bold;
+}
+
+.style-input-field-text, fieldset > input[type=text], input[type=datetime-local], input[type=time],input[type=email],input[type=date],input[type=tel], select, radio, file {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 5%;
+  display: inline-block;
+  color: #000;
+  font-size: var(--16);
+  font-family: zonapro-regular;
+  border: 1px solid #000;
+  border-radius: 9px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+  position: relative;
+  padding-left: 60px;
+}
+
+input[type="radio"] + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: white;
+}
+
+input[type="radio"]:checked + label::before {
+    box-shadow: 0 0 12px #e25853;
+    background-image: radial-gradient(red, white, white);
+}
+
+
+
+input:focus, textarea:focus {
+background-color: none;
+}
+
+.input-focus:focus, fieldset > input[type=text]:focus {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 8px, rgba(17, 17, 26, 0.1) 0px 4px 12px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: translate(0,  2px);
+    transition: 0.6s;
+}
+
+textarea {
+margin: 8px 0;
+margin-left: 5%;
+}
+
+#style-input-field-submit {
+  width: 80%;
+  margin: 8px 10%;
+  background-color: #e25853;
+  color: white;
+  font-size: var(--15);
+  font-family: zonapro-bold;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+#style-input-field-submit:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px dashed #000;
+}
+
+.homedelveryarea {
+display: none;
+}
+
+.filebox {
+ width: 90%;
+  padding: 12px 20px;
+  margin: 8px 5%;
+  display: inline-block;
+  color: #000;
+  font-size: var(--16);
+  border: 1px solid #000;
+  border-radius: 9px;
+
+}
+
+.uploadnotice {
+  color: #e25853;
+}
+
+.previewbtn {
+position: relative;
+ background-color: #e25853;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: var(--17);
+  width: 35%;
+  margin: 7%;
+  border-radius: 1rem;
+}
+
+.previewbtn:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.hideopt{
+display: none;
+}
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    color:#e25853;
+    background-color: white;
+  }
+  .tooltipp {
+  font-size: 18px;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    font-family: zonapro-bold,sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    color: #e25853;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 8px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+    border: 1px solid #000;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    border-radius: 16px;
+  }
+
+  #punchfieldset {
+      display: none;
+  }
+  #notice {
+    display: none;
+  }
+
+
+    @media screen and (min-width: 750px) {
+      .formtitle {
+        word-spacing: 8px;
+        letter-spacing: 1.5px;
+        font-size: var(--24);
+        border-bottom: 10px solid #ffeead;
+      }
+
+      legend {
+        font-size: var(--18);
+      }
+
+      label {
+      color: #000;
+      margin-left: 5%;
+      font-size: 17px;
+      }
+
+      .tooltipp {
+      font-size: 20px;
+      padding-left: 8px;
+      }
+
+      .tooltip .tooltiptext {
+        width: 200px;
+      }
+
+      .tooltip:hover .tooltiptext {
+        padding: 15px;
+        font-size: 13px;
+        border-radius: 16px;
+      }
+
+      .tablink {
+        font-size: var(--14);
+        }
+
+        #style-input-field-submit {
+          width: 60%;
+          margin: 12px 20%;
+          margin-bottom: 40px;
+          font-size: var(--16);
+          }
+
+    }
+
+    @media screen and (min-width: 1000px) {
+
+    .formtitle {
+      word-spacing: 10px;
+      letter-spacing: 1.5px;
+      font-size: var(--28);
+      border-bottom: 10px solid #ffeead;
+    }
+
+    .formscontainer {
+      width: 70%;
+      margin-left: 10%;
+      margin-right: 5%;
+      }
+
+
+    legend {
+      letter-spacing: 2px;
+      font-size: var(--20);
+    }
+
+    label {
+      color: #000;
+      margin-left: 5%;
+      font-size: 17px;
+      }
+
+ .tooltipp {
+  font-size: 20px;
+  padding-left: 8px;
+  }
+
+  .tooltip .tooltiptext {
+    width: 200px;
+  }
+
+  .tooltip:hover .tooltiptext {
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 16px;
+  }
+
+
+  input[type="radio"] + label::before {
+    border: 1px solid #000;
+  }
+
+
+  input[type="radio"]:checked + label::before {
+    box-shadow: 10 10 22px #e25853;
+    background-image: radial-gradient(red, white, white);
+  }
+
+
+    .tablink {
+    font-size: var(--14);
+    }
+
+    #style-input-field-submit {
+    width: 50%;
+    margin: 12px 25%;
+    margin-bottom: 60px;
+    font-size: var(--16);
+    }
+
+#notice {
+  display: block;
+  width: 20%;
+  margin-left: 5%;
+  padding: 3.5% 0px;
+  justify-content: center;
+
+}
+
+#notice-header {
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  font-size: 13px;
+  font-family: zonapro-bold;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 6px;
+
+}
+
+#float-aside {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#notice-text {
+  padding-top: 15px;
+  font-size: 13px;
+  font-family: zonapro-regular;
+
+}
+
+#notice-box {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 10px;
+}
+
+}
+
+    @media screen and (min-width: 1450px) {
+
+    .formtitle {
+      font-family: zonapro-extrabold,sans-serif;
+      word-spacing: 10px;
+      letter-spacing: 1.5px;
+      font-size: var(--30);
+      border-bottom: 5px solid #ffeead;
+    }
+
+    .formscontainer {
+      max-width: 60%;
+      margin-left: 20%;
+      }
+
+
+    legend {
+      letter-spacing: 2px;
+      font-size: var(--26);
+    }
+
+    label {
+      color: #000;
+      margin-left: 5%;
+      font-size: 20px;
+      }
+
+    .tooltipp {
+    font-size: 24px;
+    padding-left: 15px;
+    }
+
+    .tooltip .tooltiptext {
+      width: 260px;
+    }
+
+    .tooltip:hover .tooltiptext {
+      padding: 20px;
+      font-size: 15px;
+      border-radius: 16px;
+    }
+
+    input[type="radio"] + label::before {
+      border: 2px solid #000;
+    }
+
+    input[type="radio"]:checked + label::before {
+      box-shadow: 10 10 22px #e25853;
+      background-image: radial-gradient(red, white, white);
+    }
+
+    .tablink {
+      font-size: var(--16);
+    }
+
+  #style-input-field-submit {
+    width: 50%;
+    margin: 12px 25%;
+    margin-bottom: 80px;
+    font-size: var(--18);
+    }
+}

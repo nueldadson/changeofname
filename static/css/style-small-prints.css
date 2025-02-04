@@ -1,0 +1,166 @@
+
+    @font-face {
+      src: url('ZonaPro-Regular.ttf') format('truetype');
+      font-family: "zonapro-regular";
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-SemiBold.ttf') format('truetype');
+      font-family: "zonapro-semibold";
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-Bold.ttf') format('truetype');
+      font-family: "zonapro-bold";
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      src: url('ZonaPro-ExtraBold.ttf') format('truetype');
+      font-family: "zonapro-extrabold";
+      font-weight: 800;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    html { font-size: 16px;
+    }
+
+    :root {
+        --13.5: 0.844rem;
+        --14: 0.875rem;
+        --15: 0.9375rem;
+        --16: 1rem;
+        --17: 1.0625rem;
+        --18: 1.125rem;
+        --20: 1.25rem;
+        --21: 1.3125rem;
+        --22: 1.375rem;
+        --23: 1.4375rem;
+        --24: 1.5rem;
+        --25: 1.5625rem;
+        --26: 1.625rem;
+        --27: 1.6875rem;
+        --28: 1.75rem;
+        --30: 1.875rem;
+        --32: 2rem;
+        --33: 2.0625rem;
+        --34: 2.125rem;
+        --35: 2.1875rem;
+        --36: 2.25rem;
+        --38: 2.375rem;
+        --40: 2.5rem;
+        --42: 2.625rem;
+        --50: 3.125rem;
+        --60: 3.75rem;
+        --70: 4.375rem;
+        --90: 5.625rem;
+    }
+
+    #small-prints-section-title {
+      max-width: 100%;
+      padding-top: 2.4rem;
+      padding-bottom: 1.625rem;
+      background-color: #ffffff;
+      position: relative;
+      font-family: zonapro-etrabold, sans-serif;
+      font-size: var(--34);
+      text-align: center;
+      color: #000;
+      word-spacing: 1px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+
+    #small-prints-section-textbox {
+      position: relative;
+      max-width: 90%;
+      margin-left: 5%;
+      margin-bottom: 30px;
+      text-align: justify;
+      justify-content: center;
+    }
+
+    #small-prints-section-article-date {
+      position: relative;
+      margin-bottom: 50px;
+    }
+
+    #small-prints-section-date {
+      color: #e25853;
+      font-size: 14px;
+      font-family: zonapro-bold;
+    }
+
+    .text {
+      color: #000;
+      font-family: zonapro-regular;
+      font-size: 15px;
+    }
+
+    .shiftp {
+      color: #000;
+      font-family: zonapro-regular;
+      font-size: 15px;
+      margin-left: 13%;
+      text-indent: -5%;
+    }
+
+    .shiftp1 {
+      color: #000;
+      font-family: zonapro-regular;
+      font-size: 15px;
+      margin-left: 6%;
+      text-indent: -5%;
+    }
+
+    .shiftp2 {
+      color: #000;
+      font-family: zonapro-regular;
+      font-size: 15px;
+      margin-left: 20%;
+      text-indent: -5%;
+    }
+
+    .shiftp3 {
+      color: #000;
+      font-family: zonapro-regular;
+      font-size: 15px;
+      margin-left: 18%;
+      text-indent: -5%;
+    }
+
+    @media screen and (min-width: 850px) {
+      #small-prints-section-textbox {
+      max-width: 80%;
+      margin-left: 10%;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      #small-prints-section-textbox {
+      max-width: 75%;
+      margin-left: 12.5%;
+      }
+    }
